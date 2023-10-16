@@ -1,0 +1,19 @@
+name: Custom Theme
+type: theme
+base theme: bootstrap5
+description: A clean, accessible, and powerful Drupal administration theme.
+alt text: Screenshot of Bootstrap, Drupal administration theme.
+core_version_requirement: ^9 || ^10
+package: Custom
+regions:
+  header: Header
+  pre_content: Pre-content
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: Page top
+  page_bottom: Page bottom
+  sidebar_first: First sidebar
+libraries:
+  - custom_theme/global-styling

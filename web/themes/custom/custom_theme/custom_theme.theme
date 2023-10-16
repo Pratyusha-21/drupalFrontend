@@ -1,0 +1,7 @@
+<?php 
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function custom_theme_preprocess_node(array &$variables): void {
+  $attachments['#attached']['library'][] = 'custom_theme/global-styling';  
+}      
