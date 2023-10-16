@@ -1,0 +1,12 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      dist/css/style.css: {}
+      dist/css/global.css: {}
+  js:
+    js/slider.js: {}
+    dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
